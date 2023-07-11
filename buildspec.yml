@@ -1,6 +1,6 @@
 version: 0.2
 phases:
-  pre-build:
+  pre_build:
     steps:
       - name: Lint Code Base
         uses: github/super-linter@v4
