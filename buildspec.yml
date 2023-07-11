@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  pre-build:
+    steps:
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: 'true'
+          DEFAULT_BRANCH: main
